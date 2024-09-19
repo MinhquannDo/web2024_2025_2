@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Đăng nhập tài khoản</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="login-form">
+                <a href="#" class="back-link">&lt; Quay lại Trang chủ</a>
+                <h1>Đăng nhập</h1>
+                <form>
+                    <div class="input-group">
+                        <label for="email">Email đăng nhập</label>
+                        <input type="email" id="email" name="email" placeholder="Vui long nhap email">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" id="password" name="password" placeholder="Vui long nhap mat khau">
+                        <a href="#" class="forgot-password">Quên mật khẩu</a>
+                    </div>
+                    <div class="submit-group">
+                        <input type="submit" value="Đăng nhập" class="btn-submit">
+                    </div>
+                    <p>Bạn chưa có tài khoản? <a href="#" class="signup-link">Đăng ký</a></p>
+                </form>
+            </div>
+            <div class="ad-banner">
+                <img src="image.png" alt="Quảng cáo đối tác Silver">
+            </div>
+        </div>
+    </body>
+</html>
